@@ -7,12 +7,14 @@ This Python script provides a basic password manager for educational purposes. I
 
 **This script is for demonstration only and should not be used in a production environment. It lacks critical security features for real-world password management.** ⚠️
 
-## How to Use
+## How to Use (macOS commands)
 
 1. **Clone this repository to your local machine** (use that fancy git magic 🪄).
-2. **Install the required libraries**: `hashlib` and `getpass` are included in the standard Python library (no extra downloads needed ✅).
-3. **Run the script** using `python password_manager.py` (like a coding wizard 🧙‍♂️).
-4. **Follow the on-screen prompts** to create an account or login (easy-peasy 🥳).
+   **Create a virtual environment on your vscode python `-m venv env`**
+   **Activate the virtual environment `source venv/bin/activate`**
+3. **Install the required libraries**: `hashlib` and `getpass` are included in the standard Python library (no extra downloads needed ✅).
+4. **Run the script** using `python password_manager.py` (like a coding wizard 🧙‍♂️).
+5. **Follow the on-screen prompts** to create an account or login (easy-peasy 🥳).
 
 ## What it Does
 
