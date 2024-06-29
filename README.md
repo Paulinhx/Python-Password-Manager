@@ -28,6 +28,25 @@ The script is organized into three main functions, like well-oiled gears working
 - `create_account()`: Prompts the user for a username and password, hashes the password, and stores the username-hashed password pair in a dictionary (think of it like a secure address book for your usernames and scrambled passwords 📒).
 - `login()`: Prompts the user for login credentials, hashes the entered password, and verifies it against the stored hashed password for the provided username (like checking a secret key to unlock a door 🔐).
 - `main()`: Provides a menu-driven interface for the password manager, allowing users to create accounts, login, or exit (like a control center for your password needs 🕹️).
+- 
+ ### `if __name__ == "__main__":` - What Does It Do?
+
+The line `if __name__ == "__main__":` is a common construct in Python scripts. It is used to determine whether the script is being run as the main program or if it is being imported into another script as a module.
+
+#### `__name__` Variable
+- `__name__` is a special built-in variable in Python.
+- When a Python script is run directly, `__name__` is set to `"__main__"`.
+- When the script is imported as a module in another script, `__name__` is set to the name of the script/module.
+
+#### The Condition
+- `if __name__ == "__main__":` checks whether the script is being run directly.
+- If the script is being run directly, the condition evaluates to `True`.
+- If the script is imported as a module, the condition evaluates to `False`.
+
+#### The `main()` Function
+- `main()` is typically defined as the main entry point for the script.
+- Placing `main()` within this `if` block ensures that `main()` is only executed when the script is run directly, not when it is imported as a module.
+
 
 ## We've Got Your Back (with Comments)
 
